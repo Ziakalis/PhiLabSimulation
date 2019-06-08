@@ -1,0 +1,8 @@
+#pragma once
+
+#ifndef M_PI
+#define M_PI 3.141592653
+#endif
+
+#define M_PL_GRAVITATIONAL_FORCE_CONST 6.67408e-11
+#define M_PL_ELECTROSTATIC_FORCE_CONST 8.987551e9
