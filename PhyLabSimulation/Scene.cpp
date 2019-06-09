@@ -85,7 +85,10 @@ void CScene::KinematicCalculation()
 {
 	for (int i = 0; i < ObjNum; i++)
 	{
-		ppElementList[i]->KinematicUpdate(SampleTime);
+		if (!ppElementList[i]->isWall)
+		{
+			ppElementList[i]->KinematicUpdate(SampleTime);
+		}
 	}
 	SimuTime += SampleTime;
 }

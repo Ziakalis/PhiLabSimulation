@@ -76,4 +76,15 @@ namespace PhyLabSimu
 	private:
 
 	};
+
+	class PLWall : public PLBaseObject
+	{
+	public:
+		PLWall(double _Width, double _Height);
+		~PLWall();
+		double Width, Height;
+	private:
+
+	};
+
 }

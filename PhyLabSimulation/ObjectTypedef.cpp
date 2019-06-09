@@ -164,3 +164,15 @@ PLCube::PLCube(double _Lx, double _Ly, double _Lz)
 PLCube::~PLCube()
 {
 }
+
+/*============================= PLWall =================================*/
+
+PLWall::PLWall(double _Width, double _Height)
+{
+	Width = _Width;
+	Height = _Height;
+}
+
+PLWall::~PLWall()
+{
+}

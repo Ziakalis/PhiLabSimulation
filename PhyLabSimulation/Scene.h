@@ -17,6 +17,7 @@ public:
 	PLBaseObject* pObj;
 	bool Visibility;
 	bool isParticle;
+	bool isWall;
 	Vector Pos;
 	Vector Vel;
 	Vector Acc;
